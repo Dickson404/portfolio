@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Dickson Kemi BOCO : futur ingénieur, passionné d’IA, de cybersécurité et de développement web.">
+  <title>Dickson Kemi BOCO | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== ÉCRAN D'ACCUEIL (WELCOME) ===== -->
+  <div class="intro" aria-hidden="true">
+    <div class="intro-word">
+      <span style="--i:0">W</span>
+      <span style="--i:1">E</span>
+      <span style="--i:2">L</span>
+      <span style="--i:3">C</span>
+      <span style="--i:4">O</span>
+      <span style="--i:5">M</span>
+      <span style="--i:6">E</span>
+    </div>
+  </div>
+
+  <!-- ===== BARRE DE PROGRESSION DE LECTURE ===== -->
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- ===== EN-TÊTE / NAVIGATION ===== -->
+  <header class="header">
+    <a href="#accueil" class="logo">D.K.B</a>
+
+    <nav class="nav" id="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">🌙</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== ACCUEIL ===== -->
+    <section id="accueil" class="hero">
+      <canvas id="particles" class="particles" aria-hidden="true"></canvas>
+
+      <div class="hero-text">
+        <p class="hero-hello">Bonjour, je suis</p>
+        <h1>Dickson Kemi BOCO</h1>
+        <h2>Futur ingénieur · IA · Cybersécurité · Développement web</h2>
+        <p class="hero-desc">
+          Étudiant en classes préparatoires aux études d’ingénieur, je me forme pour concevoir des sites,
+          y intégrer de l’intelligence artificielle et les protéger contre les menaces.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="profil.jpg" alt="Photo de Dickson Kemi BOCO">
+      </div>
+    </section>
+
+    <!-- ===== À PROPOS ===== -->
+    <section id="apropos" class="section">
+      <h2 class="section-title">À propos de moi</h2>
+      <div class="about-content">
+        <p>
+          Je suis <strong>Dickson Kemi BOCO</strong>, étudiant en classes préparatoires aux études d’ingénieur
+          (2<sup>e</sup> année). Titulaire d’un <strong>Baccalauréat série C obtenu en 2025 avec la mention Très Bien</strong>,
+          je suis passionné d’informatique, en particulier par la <strong>cybersécurité</strong> et
+          l’<strong>intelligence artificielle</strong>.
+        </p>
+        <p>
+          Je me forme aussi au développement web afin d’avoir une base concrète et de combiner mes compétences :
+          dès qu’il s’agira de créer un site, d’y intégrer une IA ou d’assurer sa sécurité contre les menaces,
+          je pourrai en réaliser une grande partie moi-même.
+        </p>
+
+        <div class="communities">
+          <div class="community-card">
+            <h3>Benin AI Community (BAIC)</h3>
+            <p>Membre du pôle Développement.</p>
+            <a href="https://fr.linkedin.com/posts/benin-ai-community-labs_baiclabs-baic-baiclabs-activity-7497961341656154112-hJx4?utm_source=li_share&utm_content=feedcontent&utm_medium=g_dt_web&utm_campaign=copy" target="_blank" rel="noopener noreferrer">Voir la publication</a>
+          </div>
+          <div class="community-card">
+            <h3>10 000 Codeurs</h3>
+            <p>Phase écrite réussie. Phase orale en vue du Passeport numérique.</p>
+            <a href="https://share.google/CcLHzdxd9vdGC9EoA" target="_blank" rel="noopener noreferrer">Voir la preuve</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== COMPÉTENCES ===== -->
+    <section id="competences" class="section section-alt">
+      <h2 class="section-title">Compétences</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3>Développement web</h3>
+          <ul>
+            <li>HTML <span class="level level-beginner">Débutant</span></li>
+            <li>CSS <span class="level level-beginner">Débutant</span></li>
+            <li>JavaScript <span class="level level-beginner">Débutant</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Programmation</h3>
+          <ul>
+            <li>Python <span class="level level-intermediate">Intermédiaire</span></li>
+            <li>C++ <span class="level level-intermediate">Intermédiaire</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>IA et cybersécurité</h3>
+          <ul>
+            <li>Intelligence Artificielle <span class="level level-intermediate">Intermédiaire</span></li>
+            <li>Cybersécurité <span class="level level-intermediate">Intermédiaire</span></li>
+            <li>Kali Linux <span class="level level-beginner">Débutant</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Outils scientifiques</h3>
+          <ul>
+            <li>LaTeX <span class="level level-intermediate">Intermédiaire</span></li>
+            <li>MATLAB <span class="level level-beginner">Débutant</span></li>
+            <li>AutoCAD <span class="level level-beginner">Débutant</span></li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Bureautique</h3>
+          <ul>
+            <li>Word <span class="level level-intermediate">Intermédiaire</span></li>
+            <li>Excel <span class="level level-intermediate">Intermédiaire</span></li>
+            <li>PowerPoint <span class="level level-intermediate">Intermédiaire</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== PROJETS ===== -->
+    <section id="projets" class="section">
+      <h2 class="section-title">Projets</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <span class="status status-done">Terminé</span>
+          <h3>Carnet de notes étudiant</h3>
+          <p>
+            Une application pour stocker ses informations de cours, ses notes et ses crédits.
+            Elle calcule les moyennes cibles à viser pour enregistrer ses notes au fur et à mesure
+            et savoir ce qui nous attend. Bientôt en ligne.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <span class="status status-progress">En cours</span>
+          <h3>Application de dimensionnement solaire</h3>
+          <p>Un outil pour dimensionner une installation solaire selon les besoins énergétiques.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="status status-progress">En cours</span>
+          <h3>Créateur de jeu biblique</h3>
+          <p>Une application permettant de créer des jeux bibliques.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="status status-progress">En cours</span>
+          <h3>Site de rencontre et de discussion</h3>
+          <p>Une plateforme pour rencontrer des personnes et échanger avec elles.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="status status-progress">En cours</span>
+          <h3>Jeu 3D</h3>
+          <p>Un jeu en trois dimensions actuellement en cours de développement.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== PARCOURS ===== -->
+    <section id="parcours" class="section section-alt">
+      <h2 class="section-title">Parcours</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <span class="timeline-date">Depuis 2025</span>
+          <h3>Classes préparatoires aux études d’ingénieur</h3>
+          <p>INSPEI-UNSTIM · Sciences et Techniques de l’Ingénieur · 2<sup>e</sup> année</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2025</span>
+          <h3>Baccalauréat série C, mention Très Bien</h3>
+          <p>CEG 1 Lokossa (classe de Terminale C)</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2022 – 2025</span>
+          <h3>Du BEPC à la 1<sup>re</sup> C</h3>
+          <p>CEG 1 Agame, où je suis resté premier de ma classe jusqu’en 1<sup>re</sup> C.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2022</span>
+          <h3>BEPC</h3>
+          <p>Brevet d’Étude du Premier Cycle</p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">2018</span>
+          <h3>CEP</h3>
+          <p>École primaire publique d’Agame (B), après le CI à l’école primaire publique d’Alligoudo.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== BANDEAU CONTACTEZ-MOI ===== -->
+    <a href="#contact" class="marquee" aria-label="Contactez-moi">
+      <div class="marquee-track" aria-hidden="true">
+        <div class="marquee-group">
+          <span>Contactez-moi</span><span>→</span>
+          <span>Contactez-moi</span><span>→</span>
+          <span>Contactez-moi</span><span>→</span>
+          <span>Contactez-moi</span><span>→</span>
+        </div>
+        <div class="marquee-group">
+          <span>Contactez-moi</span><span>→</span>
+          <span>Contactez-moi</span><span>→</span>
+          <span>Contactez-moi</span><span>→</span>
+          <span>Contactez-moi</span><span>→</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Me contacter</h2>
+      <p class="contact-intro">
+        Une idée de projet, une collaboration, une opportunité ? Écris-moi, je réponds avec plaisir.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:dicksonkemiboco@gmail.com" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <span class="contact-label">E-mail</span>
+          <span class="contact-value">dicksonkemiboco@gmail.com</span>
+        </a>
+        <a href="https://wa.me/2290148158018" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <span class="contact-icon">💬</span>
+          <span class="contact-label">WhatsApp</span>
+          <span class="contact-value">+229 01 48 15 80 18</span>
+        </a>
+        <a href="https://share.google/2pp23rWGnyekAvEOt" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <span class="contact-icon">🔗</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">Dickson Kemi BOCO</span>
+        </a>
+      </div>
+
+      <!-- Formulaire de contact (envoi via Formspree) -->
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xoeevgea" method="POST">
+        <h3>Ou envoie-moi un message ici</h3>
+
+        <div class="form-row">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+
+        <div class="form-row">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <!-- Champ anti-spam invisible : ne pas remplir -->
+        <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+        <button type="submit" class="btn btn-primary" id="formButton">Envoyer le message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== PIED DE PAGE ===== -->
+  <footer class="footer">
+    <p>© 2026 Dickson Kemi BOCO. Tous droits réservés.</p>
+  </footer>
+
+  <!-- ===== BOUTON RETOUR EN HAUT ===== -->
+  <button class="to-top" id="toTop" aria-label="Retour en haut de la page">↑</button>
+
+  <script src="script.js"></script>
+
+  <!-- Statistiques de visites (GoatCounter) -->
+  <script data-goatcounter="https://dickson.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
